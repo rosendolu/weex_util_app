@@ -1,15 +1,21 @@
 <template lang="pug">
-  .main body
+  text.main {{msg}}
 </template>
 
 <script>
 export default {
 	// eslint-disable-next-line no-tabs
 	data() {
-		return {}
+		return {
+			msg: 'wa hahah ',
+		}
 	},
 	created() {},
-	mounted() {},
+	mounted() {
+		setTimeout(() => {
+			this.msg = 'hello weex '
+		}, 2000)
+	},
 	methods: {
 		init() {
 			//
