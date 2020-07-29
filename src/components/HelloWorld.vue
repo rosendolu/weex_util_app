@@ -1,3 +1,21 @@
-<template>
-  <text class="message">Now, let's use Vue.js to build your Weex app.</text>
+<template lang="pug">
+  .main body
 </template>
+
+<script>
+export default {
+	// eslint-disable-next-line no-tabs
+	data() {
+		return {}
+	},
+	created() {},
+	mounted() {},
+	methods: {
+		init() {
+			//
+		},
+	},
+}
+</script>
+
+<style scoped></style>>
