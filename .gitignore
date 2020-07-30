@@ -4,3 +4,4 @@ doc/_book/
 web/build/
 .temp/
 dist/
+.~*
