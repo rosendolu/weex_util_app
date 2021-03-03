@@ -62,7 +62,7 @@
     "postcss-import": "^11.0.0",
     "postcss-loader": "^2.0.9",
     "postcss-plugin-weex": "^0.1.6",
-    "pug": "^3.0.0",
+    "pug": "^3.0.1",
     "pug-plain-loader": "^1.0.0",
     "raw-loader": "^0.5.1",
     "rimraf": "^2.6.2",
